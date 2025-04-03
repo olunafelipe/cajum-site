@@ -23,25 +23,22 @@ import QuemSomos from './components/QuemSomos.vue';
 </script>
 
 <style>
-/* 🔵 Fundo azul aplicado ao site inteiro */
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #0E0124 !important; /* 🔥 Forçamos o fundo azul */
+  background-color: #0E0124 !important;
   color: white;
   scroll-behavior: smooth;
   overflow-x: hidden;
   min-height: 100vh;
 }
 
-/* Garante que o conteúdo ocupe toda a tela */
 .site-container {
   width: 100%;
   min-height: 100vh;
-  background-color: #0E0124; /* Fundo azul reforçado */
+  background-color: #0E0124;
 }
 
-/* Seções ajustadas */
 section {
   min-height: 100vh;
   display: flex;

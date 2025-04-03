@@ -72,7 +72,7 @@ onMounted(() => {
 }
 
 .quem-somos-section {
-  min-height: 100vh; /* Garante que ocupe toda a tela para permitir rolagem */
+  min-height: 100vh;
   padding: 50px 20px;
 }
 </style>

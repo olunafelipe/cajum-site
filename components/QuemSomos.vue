@@ -33,7 +33,6 @@
     text-align: center;
   }
   
-  /* 🔺 Aumentamos o tamanho do título e movemos ele para cima */
   .titulo-img {
     width: 30%;
     max-width: 600px;
@@ -41,7 +40,6 @@
     margin-top: -150px;
   }
   
-  /* Layout lado a lado */
   .conteudo {
     display: flex;
     align-items: center;
@@ -51,14 +49,12 @@
     width: 100%;
   }
   
-  /* 📸 Aumenta a imagem da esquerda */
   .imagem-esquerda {
     width: 45%;
     max-width: 500px;
     margin-top: 20px;
   }
   
-  /* Texto centralizado com parágrafos separados */
   .texto {
     width: 45%;
     font-size: 1.2rem;
@@ -68,12 +64,12 @@
   }
   
   .texto p {
-    margin-bottom: 15px; /* Espaçamento entre os parágrafos */
+    margin-bottom: 15px;
   }
 
 .letreiro-container {
   width: 100%;
-  background-color: #621EAA; /* Cor roxa */
+  background-color: #621EAA;
   overflow: hidden;
   white-space: nowrap;
   position: relative;
@@ -83,22 +79,20 @@
   align-items: center;
 }
 
-/* 🔹 Letreiro animado contínuo */
 .letreiro-texto {
   display: flex;
   font-size: 3.0rem;
   font-weight: bold;
   color: #FFC552;
   text-transform: uppercase;
-  font-family: 'Rubik', sans-serif; /* Fonte arredondada */
+  font-family: 'Rubik', sans-serif;
   width: max-content;
   animation: marquee 15s linear infinite;
 }
 
-/* 🔹 Garantir que o texto se repita sem pausas */
 .letreiro-texto span {
   display: inline-block;
-  padding-right: 1rem; /* Espaço entre frases */
+  padding-right: 1rem;
   white-space: nowrap;
 }
 
