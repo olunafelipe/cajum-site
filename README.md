@@ -1,75 +1,68 @@
-# Nuxt Minimal Starter
+# 🚀 Projeto CAJUM - Website Oficial
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 📌 Sobre o Projeto
+O site da **Casa de Artes da Juventude Metodista (CAJUM)** foi desenvolvido para apresentar a missão, eventos e ministérios dessa iniciativa. Com um design moderno e responsivo, o site permite que os visitantes conheçam mais sobre a CAJUM e acompanhem suas atividades.
 
-## Setup
+## 🎨 Tecnologias Utilizadas
+- **Nuxt 3** - Framework Vue para SSR e geração de sites estáticos
+- **Vue 3** - Framework JavaScript para construção da interface
+- **Vite** - Ferramenta para build e desenvolvimento
+- **CSS3** - Estilização personalizada
+- **Google Fonts** - Uso da fonte `Rubik`
 
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+## 📂 Estrutura do Projeto
+```
+📁 projeto-cajum
+│-- 📁 public/           # Imagens e assets públicos
+│-- 📁 components/   # Componentes reutilizáveis
+│   ├── MenuSuperior.vue
+│   ├── Home.vue
+│   ├── QuemSomos.vue  
+│-- app.vue         # Componente principal do Nuxt
+│-- 📄 nuxt.config.ts    # Configuração do Nuxt
+│-- 📄 package.json      # Dependências do projeto
+│-- 📄 README.md         # Documentação do projeto
 ```
 
-## Development Server
+## 📜 Funcionalidades
+✅ Menu fixo com navegação suave entre as seções
+✅ Seção "Quem Somos" com imagens e descrição da CAJUM
+✅ Estilização responsiva para dispositivos móveis
 
-Start the development server on `http://localhost:3000`:
+## 📦 Como Executar o Projeto
+1. **Clone o repositório:**
+   ```sh
+   git clone https://github.com/olunafelipe/cajum-site.git
+   ```
+2. **Acesse a pasta do projeto:**
+   ```sh
+   cd cajum-site
+   ```
+3. **Instale as dependências:**
+   ```sh
+   npm install
+   ```
+4. **Inicie o servidor de desenvolvimento:**
+   ```sh
+   npm run dev
+   ```
+5. **Acesse o site no navegador:**
+   ```sh
+   http://localhost:3000
+   ```
 
-```bash
-# npm
-npm run dev
+## 🚀 Deploy
+O site pode ser facilmente implantado em plataformas como:
+- Vercel
+- Netlify
+- GitHub Pages (caso use apenas frontend)
 
-# pnpm
-pnpm dev
+## 💡 Melhorias Futuras
+- 📌 Adicionar uma seção falando sobre cada ministério da CAJUM
+- 📌 Implementar um formulário de contato
+- 📌 Adicionar sessão de login para membros da CAJUM
+- 📌 Implementar sistema de escalas na área restrita
 
-# yarn
-yarn dev
+## 📝 Licença
+Este projeto está sob a licença **MIT**. Sinta-se à vontade para contribuir e aprimorá-lo! 🙌
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
