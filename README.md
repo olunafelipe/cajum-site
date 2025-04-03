@@ -1,7 +1,7 @@
 # 🚀 Projeto CAJUM - Website Oficial
 
 ## 📌 Sobre o Projeto
-O site da **Casa de Artes da Juventude Metodista (CAJUM)** foi desenvolvido para apresentar a missão, eventos e ministérios dessa iniciativa. Com um design moderno e responsivo, o site permite que os visitantes conheçam mais sobre a CAJUM e acompanhem suas atividades.
+O site da **Casa de Artes da Juventude Metodista (CAJUM)** foi desenvolvido para apresentar a missão, eventos e ministérios desse movimento da Federação Metodista de Jovens na 3RE. Com um design moderno e responsivo, o site permite que os visitantes conheçam mais sobre a CAJUM e acompanhem suas atividades.
 
 ## 🎨 Tecnologias Utilizadas
 - **Nuxt 3** - Framework Vue para SSR e geração de sites estáticos
