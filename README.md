@@ -12,7 +12,7 @@ O site da **Casa de Artes da Juventude Metodista (CAJUM)** foi desenvolvido para
 
 ## 📂 Estrutura do Projeto
 ```
-📁 projeto-cajum
+📁 cajum-site
 │-- 📁 public/           # Imagens e assets públicos
 │-- 📁 components/   # Componentes reutilizáveis
 │   ├── MenuSuperior.vue
